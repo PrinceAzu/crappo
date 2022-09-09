@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link
+        rel="shortcut icon" 
+        href="assets/imgs/react.png"
+        type="image/x-icon" 
+      />
+    <title>Crappo</title>
+
+</head>
+<body>
+   <main class="overflow-x">
+    <!-- HEADER -->
+        <header>
+            <div class="content-wrap">
+                <!-- Navigation -->
+                <div class="menuBrand">
+                    <div class="nav-open text-white">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="brand-1">
+                        <img src="assets/imgs/logo.png" alt="brand" srcset="">
+                    </div>
+                </div>
+
+                <nav class="navbar">
+                  <div class="menu flex">
+                      <div class="brand">
+                          <img src="assets/imgs/logo.png" alt="brand" srcset="">
+                      </div>
+
+                      <div class="nav-close text-white">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+
+                      <div class="flex menu-wrap">
+                        <ul class="mainMenu">
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="buttons">
+                          <a href="#">Login</a>
+                          <span class="divide"> | </span>
+                          <button class="btn menu-btn">Register</button>
+                        </div>
+                      </div> 
+                  </div>
+                  
+                </nav>
+
+                <!-- Hero -->
+                <section id="hero">
+                  <div class="hero-items">
+                      <div class="hero-item-1 overflow-x" data-aos="fade-up" data-aos-duration="3000">
+                          <p class="deal text-xs"><span>70% save</span> for the best black friday deals</p>
+                          <h1 class="hero-title w-70">Fastest & Secure Platform To Invest In Cypto</h1>
+                          <p class="text-xs color-2">
+                              buy and sell cyptocurrencies by trusted 10M wallets, in over 100m transactions
+                          </p>
+                          <button class="btn hero-btn">Try For FREE<i class="fa-light fa-greater-than" data-aos="fade-right" data-aos-duration="3000"></i></button>
+                      </div>
+                      <div class="hero-item-2" data-aos="zoom-in" data-aos-duration="3000">
+                          <img src="assets/imgs/hero-img.png" alt="hero-img" class="responsive-img object-cover" srcset="">
+                      </div>
+                  </div>
+                </section>
+            </div>
+        </header>
+
+        <!-- ABOUT -->
+        <section id="about" class="content-wrap">
+            <div class="about-figures flex">
+                <div class="fig flex" data-aos="fade-up" data-aos-duration="1500">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <div class="fig-txt">
+                        <p>$30B</p>
+                        <p class="text-xs color-2">Digital Currency Exchange</p>
+                    </div>
+                </div>
+                <div class="fig flex" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="fig-txt">
+                        <p>190+</p>
+                        <p class="text-xs color-2">Countries Around The World</p>
+                    </div>
+                </div>
+                <div class="fig flex" data-aos="fade-up" data-aos-duration="3000">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <div class="fig-txt">
+                        <p>$10M</p>
+                        <p class="text-xs color-2">Trusted Wallet Investors</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-items flex">
+                <div class="about-item-1" data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="assets/imgs/why-img.png" class="responsive-img" alt="about-img" srcset="">
+                </div>
+                <div class="about-item-2" data-aos="fade-up" data-aos-duration="3000">
+                    <h2 class="about-title w-70">Why you should choose CHAPPO</h2>
+                    <p class="color-2">Experience the next generation cryptocurrency platform. 
+                        No financial borders, extra fees, and fake reviews.
+                    </p>
+                    <button class="btn btn-x">Learn More</button>
+                </div>
+            </div>
+
+            <!-- Earn -->
+            <div class="earn">
+                <h2 class="earn-title text-center" data-aos="fade-up" data-aos-duration="3000">Check how much you can earn</h2>
+                <p class="text-xs text-center" data-aos="fade-up" data-aos-duration="3000">Let’s check your hash rate to see how much you will earn today, 
+                    Exercitation veniam consequat sunt nostrud amet. 
+                </p>
+                <div class="form bg-white" data-aos="zoom-in" data-aos-duration="3000">
+                    <form action="" class="earn-form">
+                        <input type="text" placeholder="Enter your hash rate here" required>
+                        <select name="hash" id="hash">
+                            <option value="TH/s">TH/s</option>
+                            <option value="H/s">H/s</option>
+                            <option value="KH/s">KH/s</option>
+                            <option value="NH/s">NH/s</option>
+                            <option value="GH/s">GH/s</option>
+                        </select>
+                        <button class="btn btn-x">Calculate</button>
+                    </form>
+                    <p class="p1">ESTIMATED 24 HOUR REVENUE:</p>
+                    <h3>0.055 130 59 ETH <span>($1275)</span></h3>
+                    <p class="color-2">Revenue will change based on mining difficulty and Ethereum price.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRADE -->
+        <section class="trade">
+            <div class="assets content-wrap">
+                <h2 class="assets-title text-center color-1" data-aos="zoom-in" data-aos-duration="3000">Trade Securely And Market The High Growth Cryptocurrencies.</h2>
+                <div class="assets-items">
+                    
+                    <div class="asset bg-white flex">
+                        <img src="assets/imgs/bitcon.png" alt="bitcoin" srcset="">
+                        <div class="flex text-center coin">
+                            <div class="txt">Bitcoin</div>
+                            <div class="color-2">BTC</div>
+                        </div>
+                        <p class="text-center color-1 p2">Digital currency in which a record of transactions is maintained.</p>
+                        <button class="asset-btn"><i class="fa-light fa-greater-than"></i></button>
+                        <button class="asset-btn-lg">Start mining<i class="fa-light fa-greater-than"></i></button>
+                    </div>
+
+                   
+                    <div class="asset bg-white flex">
+                        <img src="assets/imgs/ethereum.png" alt="ethereum" srcset="">
+                        <div class="flex text-center coin">
+                            <div class="txt">Ethereum</div>
+                            <div class="color-2">ETH</div>
+                        </div>
+                        <p class="text-center color-1 p2">Blockchain technology to create and run decentralized digital applications.</p>
+                        <button class="asset-btn"><i class="fa-light fa-greater-than"></i></button>
+                        <button class="asset-btn-lg">Start mining<i class="fa-light fa-greater-than"></i></button>
+                    </div>
+
+                   
+                    <div class="asset bg-white flex">
+                        <img src="assets/imgs/litecoin.png" alt="litecoin" srcset="">
+                        <div class="flex text-center coin">
+                            <div class="txt">Litecoin</div>
+                            <div class="color-2">LTC</div>
+                        </div>
+                        <p class="text-center color-1 p2">Cryptocurrency that enables instant payments to anyone in the world.</p>
+                        <button class="asset-btn"><i class="fa-light fa-greater-than"></i></button>
+                        <button class="asset-btn-lg">Start mining<i class="fa-light fa-greater-than"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MARKET -->
+        <section class="market content-wrap">
+            <h2 class="text-center market-title" data-aos="zoom-in" data-aos-duration="3000">Market sentiments, portfolio, and run the infrastructure of your choice</h2>
+    
+            <div class="market-item">
+                <div class="market-item-txt" data-aos="fade-right" data-aos-duration="2000">
+                    <h3>Invest Smart</h3>
+                    <p class="height color-2 text-xs">Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
+                    <button class="btn btn-x">Learn more</button>
+                </div>
+                <div data-aos="zoom-out-left" data-aos-duration="3000">
+                    <img src="assets/imgs/feature-1-img.png" class="responsive-img" alt="" srcset="">
+                </div>
+            </div>
+
+                
+            <div class="market-item">
+                <div data-aos="zoom-out-right" data-aos-duration="3000">
+                    <img src="assets/imgs/feature-2-img.png" class="responsive-img" alt="" srcset="">
+                </div>
+                <div class="market-item-txt" data-aos="fade-left" data-aos-duration="2000">
+                    <h3>Detailed Statistics</h3>
+                    <p class="height color-2 text-xs">View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
+                    <button class="btn btn-x">Learn more</button>
+                </div>
+            </div>
+            
+
+            <div class="market-item">
+                <div class="market-item-txt" data-aos="fade-right" data-aos-duration="2000">
+                    <h3>Grow your profit and track your investments</h3>
+                    <p class="height color-2 text-xs">Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
+                    <button class="btn btn-x">Learn more</button>
+                </div>
+                <div data-aos="zoom-out-left" data-aos-duration="3000">
+                    <img src="assets/imgs/feature-3-img.png" class="responsive-img" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <div class="subscribe content-wrap" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="subscribe-items">
+                    <div class="subscribe-txt">
+                        <h3 class="text-white">Start mining now</h3>
+                        <p class="text-xs">Join now with CRAPPO to get the latest news and start mining now</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form action="" class="sub-form">
+                            <input type="text" placeholder="Enter message">
+                            <button class="btn-x">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer content-wrap">
+                <div class="footer-items">
+                    <div class="footer-brand">
+                        <img src="assets/imgs/logo.png" alt="brand" srcset="">
+                    </div>
+                    <div class="footerMenu">
+                        <p>Quick Links</p>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerMenu">
+                        <p>Resources Links</p>
+                        <ul class="links">
+                            <li><a href="#">Download Whitepapper</a></li>
+                            <li><a href="#">Smart Token</a></li>
+                            <li><a href="#">Blockchain Explore</a></li>
+                            <li><a href="#">Crypto API</a></li>
+                            <li><a href="#">Interest</a></li>
+                        </ul>
+                    </div>
+                    <div class="payment">
+                        <p>We accept following payment systems</p>
+                        <div class="platforms">
+                            <img src="assets/imgs/visa.png" alt="visa" srcset="">
+                            <img src="assets/imgs/mastercard.png" alt="mastercard" srcset="">
+                            <img src="assets/imgs/bitcoin.png" alt="bitcoin" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="copywrite flex"> 
+                    <p>© 2022 CRAPPO. All rights reserved.</p>
+                    <div class="socials text-white">
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+   </main>
+   <script src="assets/js/app.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+        AOS.init();
+   </script>
+</body>
+</html>
