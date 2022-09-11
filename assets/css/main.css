@@ -512,11 +512,13 @@ header {
 
 .newsletter {
     background-image: url(/assets/imgs/newsletter-bg.png);
+    background-color: #160B3F;
     padding: 2.5rem 0;
 }
 
 .subscribe {
     background-image: url(/assets/imgs/newsletter-box.png);
+    background-color: #2A43A1;
     padding: 2rem 1.5rem;
     border-radius: 10px;
 }
