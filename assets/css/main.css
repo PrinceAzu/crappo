@@ -1,6 +1,3 @@
-@import url("/assets/css/global.css");
-@import url("/assets/css/mediaQuerries.css");
-
 /*
 *
 * =====================
@@ -27,6 +24,130 @@ html {
     font-size: 1rem;
 }
 
+
+/*
+*
+* =====================
+* GLOBAL
+* =====================
+*
+*/
+
+/* COLORS */
+a {
+    color: #fff;
+}
+
+.color-1 {
+    color: #000;
+}
+
+.color-2 {
+    color: #969DAB;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* FONTS */
+h1, h2, p {
+    color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.height {
+    line-height: 1.4rem;
+}
+
+.fa-light {
+    font-weight: bold;
+}
+
+/* WIDTH/ALIGNMENT */
+.content-wrap {
+    max-width: 82rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-43 {
+    width: 43%;
+}
+
+.w-70 {
+    max-width: 70%;
+}
+
+.w-80 {
+    max-width: 80%;
+}
+
+.overflow-x {
+    overflow: hidden;
+}
+
+/* BUTTONS */
+.btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #3B82F6;
+}
+
+.btn-x {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+/* INPUTS */
+input, select {
+    width: 100%;
+    margin-right: 1.5rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+/* IMG */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+
+
 /*
 *
 * =====================
@@ -46,6 +167,158 @@ html {
     background: #495670;
     border-radius: 3.125rem;
 }
+
+
+/*
+*
+* =====================
+* MEDIA QUERRIES
+* =====================
+*
+*/
+@media screen and (max-width: 768px), (max-width: 1023px) {
+    /* Header */
+
+    .hero-items, .about-items {
+        flex-direction: column;
+    }
+
+    .hero-title {
+        max-width: 100%;
+        font-size: 2rem!important;
+    }
+
+    .hero-item-1 span {
+        margin-right: 2rem!important;
+    }
+
+    .responsive-img {
+        max-width: 100%;
+    }
+
+    /* About */
+    .about-figures {
+        flex-direction: column;
+        margin-top: 3.5rem;
+    }
+
+    .about-item-2 {
+        margin-left: 0!important;
+    }
+
+    .fig {
+        margin-bottom: 1.5rem;
+    }
+
+   h2 {
+    font-size: 1.3rem;
+   }
+
+   .earn-form {
+    flex-direction: column;
+   }
+
+   .earn-form input, select {
+    margin-bottom: 2rem;
+   }
+
+   .earn-form button {
+    max-width: 50%;
+   }
+
+   /* MARKET */
+   .assets-items, .market-item, .subscribe-items {
+    grid-template-columns: repeat(1, 1fr)!important;
+   }
+
+   .sub-form {
+        flex-direction: column;
+    }
+
+    .sub-form input {
+        margin-bottom: 1.5rem;
+    }
+
+    /* FOOTER */
+
+    .footer-items {
+        grid-template-columns: repeat(1, 1fr)!important;
+        text-align: center;
+    }
+
+    .copywrite {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    .nav-close {
+        right: 2rem;
+    }
+
+    .navbar {
+        position: absolute;
+        background-color: #252540;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        left: auto;
+        bottom: 0;
+        z-index: 999;
+        display: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .brand {
+        display: none;
+    }
+    
+    .menu, .mainMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-wrap {
+        flex-direction: column;
+        margin: 11rem auto;
+    }
+    
+    .mainMenu a {
+        margin-right: 0!important;
+        margin-bottom: 2rem!important;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+
+    .buttons a, .buttons button {
+        font-size: 1.5rem;
+    }
+
+    .footer-brand {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1023px) {
+    .nav-open, .nav-close {
+        display: none;
+    }
+
+    .form {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menuBrand {
+        display: none;
+    }
+}
+
 
 /*
 *
